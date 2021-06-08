@@ -7,17 +7,34 @@ import SideDrawer from './SideDrawer';
 
 const Header = ()=> {
     //Using props and drawOpen property decides if its open or not, to toggle or handle the state of the of the sidewalk and when application starts this one is going to false.
-    const [drawerOpen,setDrawerOpen] = useState(false)
+    const [drawerOpen,setDrawerOpen] = useState(false);
+    const [headerShow,setHeaderShow] = useState(false);
+
+
+    const handleScroll = () =>{
+        if(window.scrollY > 0){
+            setHeaderShow(true)
+        }else{
+            setHeaderShow(false)
+        }
+
+    }
+
 
     const toggleDrawer= (value) => {
         setDrawerOpen(value)
     }
 
+
+    useEffect(()=>{
+        window.addEventListener('scroll', handleScroll)
+    })
+
     return(
         <AppBar 
         position="fixed"
         style={{
-            backgroundColor: '#2f2f2f',
+            backgroundColor: headerShow ?'#2f2f2f': 'transparent',
             boxShadow:'none',
             padding:'10px 0px'
         }}
