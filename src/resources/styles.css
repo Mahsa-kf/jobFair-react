@@ -94,3 +94,40 @@ footer .footer_copyright {
     
     background-size: cover !important;
 }
+
+
+.countdown_wrapper {
+    position:absolute;
+    bottom: 0px;
+    color:#ffffff;
+}
+
+.countdown_wrapper .countdown_top {
+    background: #811d1a;
+    font-size: 19px;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.countdown_wrapper .countdown_bottom {
+    display: flex;
+    background: #911712;
+    padding: 10px 20px;
+}
+
+.countdown_wrapper .countdown_time {
+    font-size: 70px;
+    border-right: 1px solid #8d5f1a;
+    margin-right: 14px;
+    padding-right: 49px;
+}
+.countdown_wrapper .countdown_item:last-child .countdown_time{
+    border:none;
+}
+
+.countdown_wrapper .countdown_tag {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 7px;
+}

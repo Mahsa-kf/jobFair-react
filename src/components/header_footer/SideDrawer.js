@@ -3,7 +3,7 @@ import React from 'react';
 import { Drawer, List, ListItem } from '@material-ui/core'
 
 const SideDrawer = (props) => {
-    //Creating a loop and a list of links
+   
     const links = [
         //By clicking the links it goes to the top
         {where:'featured', value:'To top'},
