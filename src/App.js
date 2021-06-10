@@ -4,8 +4,8 @@ import './resources/styles.css';
 import Header from './components/header_footer/Header';
 import Footer from './components/header_footer/Footer';
 import Featured from './components/featured';
-import EventNfo from './components/eventNfo';
-import Map from './components/map'
+import EventInfo from './components/event_info';
+import Map from './components/map/map'
 
 const App = () => {
   return (
@@ -18,16 +18,17 @@ const App = () => {
       </>
 
       <>
-      <EventNfo/>
+      <EventInfo/>
       </>
-
+{/*       
+      <div style={{backgroundColor:'pink',height:'800px'}}></div> */}
 
       <div className="map">
           <Map />
       </div>
-{/* 
-            <div style={{backgroundColor:'pink',height:'800px'}}></div>
-            <div style={{backgroundColor:'green',height:'800px'}}></div>
+ 
+           
+            {/*<div style={{backgroundColor:'green',height:'800px'}}></div>
             <div style={{backgroundColor:'orange',height:'800px'}}></div>
             <div style={{backgroundColor:'blue',height:'800px'}}></div> */}
        

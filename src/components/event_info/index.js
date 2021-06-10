@@ -7,7 +7,7 @@ import icon_calendar from '../../resources/images/icons/calendar.png';
 import icon_location from '../../resources/images/icons/location.png';
 
 
-const EventNfo = () => {
+const EventInfo = () => {
     return(
         <div className="bck_black">
             <div className="center_wrapper">
@@ -49,7 +49,7 @@ const EventNfo = () => {
                                             Event Location
                                         </div>
                                         <div className="en_desc">
-                                            100 Younge Street
+                                            100 Yonge Street
                                         </div>
                                    </div>
 
@@ -65,4 +65,4 @@ const EventNfo = () => {
     )
 }
 
-export default EventNfo;
+export default EventInfo;

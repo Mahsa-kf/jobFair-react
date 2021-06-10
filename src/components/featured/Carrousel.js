@@ -13,12 +13,15 @@ import slide_three from '../../resources/images/slide_three.jpg'
 
 const Carrousel = () => {
 
-    const setting = {
-        dots: false,
-        Infinity: true,
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 10,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         autoplay: true,
-        speed: 100
-    }
+
+    };
 
     return (
         <div className="carrousel_wrapper"
@@ -26,7 +29,48 @@ const Carrousel = () => {
                 //when the application loads, it adjust to the height of the screen.directive to be stretched to the bottom of the window
                 height: `${window.innerHeight}px`
             }}>
-            <Slider {...Settings}>
+
+
+            <Slider {...settings}>
+                <div>
+                    <div className="carrousel_image"
+                        style={{
+                            background: `url(${slide_one})`,
+                            height: `${window.innerHeight}px`
+                        }}>
+
+                    </div>
+
+                </div>
+                <div>
+                    <div>
+                        <div className="carrousel_image"
+                            style={{
+                                background: `url(${slide_two})`,
+                                height: `${window.innerHeight}px`
+                            }}></div>
+                    </div>
+                </div>
+                {/* <div>
+                    <h3>2</h3>
+                </div>
+                <div>
+                    <h3>3</h3>
+                </div>
+                <div>
+                    <h3>4</h3>
+                </div>
+                <div>
+                    <h3>5</h3>
+                </div>
+                <div>
+                    <h3>6</h3>
+                </div> */}
+            </Slider>
+
+
+            {/* <Slider {...settings}>
+
                 <div>
                     <div className="carrousel_image"
                         style={{
@@ -53,8 +97,8 @@ const Carrousel = () => {
                                 }}></div>
                         </div>
                     </div>                
-            </Slider>
-          </div>  
+            </Slider> */}
+        </div>
     )
 }
 

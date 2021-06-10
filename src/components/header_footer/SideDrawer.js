@@ -7,9 +7,10 @@ const SideDrawer = (props) => {
     const links = [
         //By clicking the links it goes to the top
         {where:'featured', value:'To top'},
-        {where:'venuenfo', value:'Venue NFO'},
-        {where:'highlights', value:'Highlights'},
-        {where:'location', value:'Location'}
+        {where:'eventInfo', value:'Event Info'},
+        {where:'partners', value:'Partners'},
+        {where:'location', value:'Location'},
+        {where:'register', value:'Register'}
     ]
      //create a loop and show the lists of array.
      //The function will keep the information about the item, which is going to be the where and the value 
