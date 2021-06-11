@@ -5,7 +5,8 @@ import Header from './components/header_footer/Header';
 import Footer from './components/header_footer/Footer';
 import Featured from './components/featured';
 import EventInfo from './components/event_info';
-import Map from './components/map/map'
+import Map from './components/map/map';
+import  Employers  from './components/employers';
 
 const App = () => {
   return (
@@ -19,6 +20,10 @@ const App = () => {
 
       <>
       <EventInfo/>
+      </>
+
+      <>
+      <Employers/>
       </>
 {/*       
       <div style={{backgroundColor:'pink',height:'800px'}}></div> */}
