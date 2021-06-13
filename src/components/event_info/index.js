@@ -18,10 +18,8 @@ const EventInfo = () => {
                                <div className="en_outer">
                                    <div className="en_inner">
                                        <div className="en_icon_square bck_red"></div>
-                                       <div className="en_icon"
-                                       style={{
-                                           background:`url(${icon_calendar})`
-                                       }}>
+                                            <div className="en_icon"
+                                                style={{background:`url(${icon_calendar})`}}>
                                         </div>
                                         <div className="en_title">
                                             Event Date & Time
@@ -39,12 +37,10 @@ const EventInfo = () => {
                         <div>
                                <div className="en_outer">
                                    <div className="en_inner">
-                                       <div className="en_icon_square bck_yellow"></div>
-                                       <div className="en_icon"
-                                       style={{
-                                           background:`url(${icon_location})`
-                                       }}>
-                                        </div>
+                                        <a className="en_icon_square bck_yellow" href="#map"></a>
+                                        <a  href="#map" className="en_icon"
+                                            style={{ background: `url(${icon_location})` }}>
+                                        </a>
                                         <div className="en_title">
                                             Event Location
                                         </div>
