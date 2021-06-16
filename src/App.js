@@ -8,7 +8,7 @@ import Footer from './components/header_footer/Footer';
 import Featured from './components/featured';
 import Description from './components/description';
 import EventInfo from './components/event_info';
-import Map from './components/map';
+import Location from './components/location';
 import Employers  from './components/employers';
 import RegForm from './components/RegForm';
 
@@ -29,25 +29,17 @@ const App = () => {
         <EventInfo/>
       </Element>
 
-      <Element name="Employers">
+      <Element name="employers">
        <Employers/>
       </Element>
 
-      <Element name="RegForm">
+      <Element name="regForm">
         <RegForm/>
       </Element>
 
-{/*       
-      <div style={{backgroundColor:'pink',height:'800px'}}></div> */}
-
-      <div id="map" className="map">
-          <Map />
-      </div>
- 
-           
-            {/*<div style={{backgroundColor:'green',height:'800px'}}></div>
-            <div style={{backgroundColor:'orange',height:'800px'}}></div>
-            <div style={{backgroundColor:'blue',height:'800px'}}></div> */}
+      <Element name="location">
+          <Location/>
+      </Element>
        
       <Footer/>
     </div>
