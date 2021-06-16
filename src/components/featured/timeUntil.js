@@ -50,7 +50,7 @@ const getTimeUntil = (deadline) => {
     },[getTimeUntil])
 
     return (
-        <Slide left delay={1000}>
+        <Slide left>
             <div className="countdown_wrapper">
                 <div className="countdown_top">
                     Event starts in:

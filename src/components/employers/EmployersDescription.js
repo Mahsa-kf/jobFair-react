@@ -2,7 +2,7 @@ import React from 'react';
 import { Fade } from 'react-awesome-reveal'
 
 
-const Description = () => {
+const EmployersDescription = () => {
 
     return (
 
@@ -20,4 +20,4 @@ const Description = () => {
     )
 }
 
-export default Description;
+export default EmployersDescription;

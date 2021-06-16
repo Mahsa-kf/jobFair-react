@@ -1,11 +1,11 @@
 import React from 'react';
-import  Description from './Description';
+import  EmployersDescription from './EmployersDescription';
 import  Partners from './Partners';
 
 const Employers = () => {
     return(
         <div className="Employers_wrapper">
-           < Description/>
+           < EmployersDescription/>
            < Partners/>
         </div>
     )
