@@ -32,9 +32,6 @@ const SideDrawer = (props) => {
             {item.value}
         </ListItem>
     )
-
-
-
     return (
         <Drawer
             anchor={"right"}
@@ -44,8 +41,7 @@ const SideDrawer = (props) => {
         >
             {/* using map to loop the links list, for each iteration is going to return whatever the component is returning  */}
             <List component="nav">
-                { links.map((item)=> renderItem(item) )}
-                
+                { links.map((item)=> renderItem(item) )}           
             </List>
         </Drawer>
     )

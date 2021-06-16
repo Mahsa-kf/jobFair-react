@@ -133,6 +133,65 @@ footer .footer_copyright {
 }
 
 /*====================
+    Event Description
+======================*/
+
+.section_heading {
+    text-align: center;
+    text-transform: uppercase;
+    color:#2c2c2c;
+    font-size: 52px;
+}
+
+.event_description {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 30px 0px;
+}
+
+.employer_wrapper {
+    display: flex;
+    padding: 70px 0px;
+}
+
+.employers_count {
+    padding-right: 100px;
+}
+
+.employers_count span:nth-child(1) {
+    color: #ff4800;
+    font-size: 125px;
+    font-weight: 400;
+    display: block;
+    line-height: 120px;
+}
+
+.employers_count span:nth-child(2) {
+    color: #2c2c2c;
+    font-size: 50px;
+    font-weight: 400;
+    display: block;
+}
+
+
+.employee_description h3 {
+    font-size: 34px;
+    font-weight: 100;
+    margin: 0px;
+    color: #2c2c2c;
+}
+
+.employee_description p { 
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/*====================
         Event NFO
 ======================*/
 
