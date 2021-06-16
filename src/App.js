@@ -31,17 +31,14 @@ const App = () => {
         <EventInfo/>
       </Element>
 
-      <Element name="employers">
-       <Employers/>
+      <Element name="location">
+          <Location/>
       </Element>
 
       <Element name="regForm">
         <RegForm/>
       </Element>
 
-      <Element name="location">
-          <Location/>
-      </Element>
        
       <Footer/>
     </div>

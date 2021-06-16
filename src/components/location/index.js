@@ -14,7 +14,7 @@ const Location = () => {
   });
 
   return (
-    <div className="map">
+    <div className="map" id="location">
       <MapGL {...viewport}
         width="100%" height="100%"
         mapStyle="mapbox://styles/mapbox/streets-v11?optimize=true"

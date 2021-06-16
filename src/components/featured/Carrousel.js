@@ -41,14 +41,14 @@ const Carrousel = () => {
                         }}
                     ></div>
                 </div>
-                {/* <div>
+                <div>
                     <div className="carrousel_image"
                         style={{
                             background:`url(${slide_three})`,
                             height:`${window.innerHeight - 10}px`
                         }}
                     ></div>
-                </div> */}
+                </div>
             </Slider>
 
         </div>

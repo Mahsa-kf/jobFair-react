@@ -38,7 +38,7 @@ const EventInfo = () => {
                                <div className="en_outer">
                                    <div className="en_inner">
                                         <a className="en_icon_square bck_yellow" href="#map"></a>
-                                        <a  href="#map" className="en_icon"
+                                        <a  href="#location" className="en_icon"
                                             style={{ background: `url(${icon_location})` }}>
                                         </a>
                                         <div className="en_title">
