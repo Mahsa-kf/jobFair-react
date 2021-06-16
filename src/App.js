@@ -2,6 +2,8 @@ import React from 'react';
 import { Element } from 'react-scroll';
 
 import './resources/styles.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import Header from './components/header_footer/Header';
 import Footer from './components/header_footer/Footer';
