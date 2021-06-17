@@ -1,3 +1,12 @@
+/* colors:
+#1A2530 : dark 
+#34495E : dark blue
+#EFC94C : yellow
+#E27A3F : orange
+#DF4949 : pink
+ */
+
+
 body {
     padding:0;
     margin:0;
@@ -18,16 +27,16 @@ body {
 }
 
 .bck_black {
-    background: #363535;
+    background: #1A2530;
 }
 .bck_white {
     background: #dfdcdc;
 }
 .bck_red {
-    background: #cf5221;
+    background: #E27A3F;
 }
 .bck_yellow {
-    background: #df990f;
+    background: #EFC94C;
 }
 
 .iconImage {
@@ -43,17 +52,23 @@ body {
 .section_heading {
     text-align: center;
     text-transform: uppercase;
-    color:#555555;
+    color:#34495E;
     font-size: 52px;
 }
 
 .section_sub_heading {
     text-align: center;
     text-transform: uppercase;
-    color:#555555;
+    color:#34495E;
     margin-top: -30px;
     font-size: 16px;
 }
+
+
+.background_image {
+    background-size: cover !important;
+}
+
 
 
 /*====================
@@ -87,11 +102,21 @@ footer {
     text-align: center;
     font-size: 60px;
     color:#ffffff;
-    background: red;
+    background: #34495E;
+    position: relative;
 }
 
 footer .footer_copyright {
     font-size: 18px;
+}
+
+.footer_background-cover {
+    background-color: rgba(185, 85, 105, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /*====================
@@ -103,12 +128,6 @@ footer .footer_copyright {
     overflow: hidden;
 }
 
-.carrousel_image {
-    
-    background-size: cover !important;
-}
-
-
 .countdown_wrapper {
     position:absolute;
     bottom: 0px;
@@ -116,7 +135,7 @@ footer .footer_copyright {
 }
 
 .countdown_wrapper .countdown_top {
-    background: #cf5221;
+    background: #E27A3F;
     ;
     font-size: 19px;
     padding: 10px;
@@ -126,7 +145,7 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_bottom {
     display: flex;
-    background: #f04b0b;
+    background: #E27A3F;
     ;
     padding: 10px 20px;
 }
@@ -170,7 +189,7 @@ footer .footer_copyright {
 }
 
 .employers_count span:nth-child(1) {
-    color: #ff4800;
+    color: #E27A3F;
     font-size: 125px;
     font-weight: 400;
     display: block;
@@ -178,7 +197,7 @@ footer .footer_copyright {
 }
 
 .employers_count span:nth-child(2) {
-    color: #555555;
+    color: #34495E;
     font-size: 50px;
     font-weight: 400;
     display: block;
@@ -189,7 +208,7 @@ footer .footer_copyright {
     font-size: 34px;
     font-weight: 100;
     margin: 0px;
-    color: #2c2c2c;
+    color: #34495E;
 }
 
 .employee_description p { 
@@ -217,20 +236,20 @@ footer .footer_copyright {
                       
 .en_item .en_outer {
     width: 300px;
-    border: 2px solid #828282;
+    border: 2px solid #34495E;
     margin: auto;
     padding: 5px;
 }
 
 .en_item .en_inner { 
-    border: 2px solid #828282;
+    border: 2px solid #34495E;
     position: relative;
     padding: 0px 20px;
     transition: all 500ms ease;
 }
 
 .en_item .en_inner:hover {
-    background: #3e3e3e;
+    background: #34495E;
 }
 
 .en_item .en_icon_square {
@@ -257,7 +276,7 @@ footer .footer_copyright {
 .en_item .en_title {
     font-size: 28px;
     margin: 90px 0px 20px 0px;
-    border-bottom: 1px solid #5d5d5d;
+    border-bottom: 1px solid #34495E;
     padding-bottom: 10px;
 }
 
@@ -272,8 +291,9 @@ footer .footer_copyright {
 ======================*/
 
 .map{
-    width: 100%;
+    width: 40%;
     height: 400px;
+    margin:40px;
 }
 
 .map_icon{
@@ -289,7 +309,7 @@ footer .footer_copyright {
 .employers_wrapper h2 {
     text-align: center;
     text-transform: uppercase;
-    color:#2c2c2c;
+    color:#1A2530;
     font-size: 52px;
 }
 
@@ -353,7 +373,7 @@ footer .footer_copyright {
 
  .reg_input{
     background: rgba(237,215,213,.18);
-    color: #373737;
+    color: #1A2530;
     border: 2px solid #e5e5e5;
     padding: 15px 10px;
     width: 100%;
@@ -363,7 +383,7 @@ footer .footer_copyright {
  }
 
  .submit_btn {
-     background: #ff4800;
+     background: #E27A3F;
      color: #FFF;
      border: 0;
      padding: 15px 30px;
