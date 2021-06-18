@@ -11,20 +11,20 @@ const EventInfo = () => {
     return(
         <div className="bck_black">
             <div className="center_wrapper">
-                <div className="en_wrapper">
+                <div className="info_wrapper">
 
-                    <Zoom className = "en_item">
+                    <Zoom className = "info_item">
                         <div>
-                               <div className="en_outer">
-                                   <div className="en_inner">
-                                       <div className="en_icon_square bck_red"></div>
-                                            <div className="en_icon"
+                               <div className="info_outer">
+                                   <div className="info_inner">
+                                       <div className="info_icon_square bck_red"></div>
+                                            <div className="info_icon"
                                                 style={{background:`url(${icon_calendar})`}}>
                                         </div>
-                                        <div className="en_title">
+                                        <div className="info_title">
                                             Event Date & Time
                                         </div>
-                                        <div className="en_desc">
+                                        <div className="info_desc">
                                         Nov 09, 2021  
                                         </div>
                                    </div>
@@ -33,18 +33,18 @@ const EventInfo = () => {
                         </div>
                     </Zoom>
 
-                    <Zoom className = "en_item">
+                    <Zoom className = "info_item info_item_2">
                         <div>
-                               <div className="en_outer">
-                                   <div className="en_inner">
-                                        <a className="en_icon_square bck_yellow" href="#map"></a>
-                                        <a  href="#location" className="en_icon"
+                               <div className="info_outer">
+                                   <div className="info_inner">
+                                        <a className="info_icon_square bck_yellow" href="#map"></a>
+                                        <a  href="#location" className="info_icon"
                                             style={{ background: `url(${icon_location})` }}>
                                         </a>
-                                        <div className="en_title">
+                                        <div className="info_title">
                                             Event Location
                                         </div>
-                                        <div className="en_desc">
+                                        <div className="info_desc">
                                             100 Yonge Street
                                         </div>
                                    </div>
