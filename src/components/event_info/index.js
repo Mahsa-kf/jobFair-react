@@ -45,7 +45,7 @@ const EventInfo = () => {
                                             Event Location
                                         </div>
                                         <div className="info_desc">
-                                            100 Yonge Street
+                                            5500 Yonge Street
                                         </div>
                                    </div>
 

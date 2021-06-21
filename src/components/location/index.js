@@ -4,9 +4,7 @@ import Map from "./Map"
 
 const Location = () => {
   return (
-    <div className="map" id="location">
       <Map />
-    </div>
   );
 }
 
