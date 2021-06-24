@@ -59,28 +59,17 @@ Database:
         When I was trying to send a request from frontend to web API in my localhost, I was getting CORS error that "NO Access-control allow-origin" to results that I did some research and found that I need to add the following code in web API APP_Start/WebApiConfiq.
        
        
-##ScreenShots:
-  
+# Screenshots:
+<img src=".\src\resources\images\ScreenShots\s1.PNG" >
+<img src=".\src\resources\images\ScreenShots\s2.PNG" >
+<img src=".\src\resources\images\ScreenShots\s3.PNG" >
+<img src=".\src\resources\images\ScreenShots\s4.PNG" >
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://www.udemy.com/share/101WayAEIddV5aTXgB/
-
-## Learning Path and Learning Resources:
+# Learning Path and Learning Resources:
 1. React - The Complete Guide (incl Hooks, React Router, Redux) (Udemy)
 2. Complete React Developer in 2021 (w/ Redux, Hooks, GraphQL) (Udemy)
+3. https://www.udemy.com/share/101WayAEIddV5aTXgB/
