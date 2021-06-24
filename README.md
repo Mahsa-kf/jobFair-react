@@ -10,30 +10,30 @@
 ## Back-end GitHub:
 https://github.com/Mahsa-kf/JobFairApi
 
-## Design & Tools
-    Front End:
-        - [x] Visual studio code
-        - [x] React
-        - [x] HTML & CSS
-        - [x] Javascript
-        - [x] Packages:   1.@material-ui/core
-                           2.@material-ui/icons
-                           3.“React-map-gl”.
-                           4."react-slick."
-                           5."react-scroll"                         
+## Design & Tools:
+Front End:
+- [x] Visual studio code
+- [x] React
+- [x] HTML & CSS
+- [x] Javascript
+- [x] Packages: 
+      1.@material-ui/core
+      2.@material-ui/icons
+      3.“React-map-gl”.
+      4."react-slick."
+      5."react-scroll"                     
 
 
-    Back end:
-        - [x] Visual Studio 2019
-        - [x] ASP.NEt Web API
-        - [x] .NET Framework
-        - [x] ADO.NET
-        - [x] C#
+Back End:
+- [x] Visual Studio 2019
+- [x] ASP.NEt Web API
+- [x] .NET Framework
+- [x] ADO.NET
+- [x] C#
     
-    Database:
-        - [x] DBeaver software
-        - [x] MySQL
-    
+Database:
+- [x] DBeaver software
+- [x] MySQL   
 
 
 ## Features:
@@ -57,6 +57,10 @@ https://github.com/Mahsa-kf/JobFairApi
 
  5. Cross-Origin Issue:
         When I was trying to send a request from frontend to web API in my localhost, I was getting CORS error that "NO Access-control allow-origin" to results that I did some research and found that I need to add the following code in web API APP_Start/WebApiConfiq.
+       
+       
+##ScreenShots:
+  
 
 
 
