@@ -10,7 +10,7 @@ const Map = () => {
     longitude: -79.41608,
     width: "100%",
     height: "50vh",
-    zoom: 10,
+    zoom: 12,
   });
 
   const [settings, setsettings] = useState({
