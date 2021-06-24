@@ -6,6 +6,11 @@ const Featured = () => {
     return (
         <div className="featured_container">
             <Carrousel />
+            <a href="#description" className="site_title">
+                <div className="wrapper">
+                    IT Job Fair Toronto
+                </div>
+            </a>
             <TimeUntil />
         </div>
     )

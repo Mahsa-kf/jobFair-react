@@ -6,6 +6,9 @@
 #DF4949 : pink
  */
 
+html {
+scroll-behavior: smooth;
+}
 
 body {
     padding:0;
@@ -73,6 +76,28 @@ body {
 .hidden{
     display: none;
 }
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid #3498db;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 
 /*====================
         HEADER
@@ -168,6 +193,31 @@ footer .footer_copyright {
     font-size: 20px;
     padding-left: 7px;
 }
+
+
+.site_title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 400px;
+    height: 160px;
+    -webkit-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);   
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+.site_title .wrapper {
+    border: 2px solid white;
+    height: 121px;
+    margin: 6px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding: 21px 70px 0px 70px;
+    text-transform: uppercase;
+}
+
 
 /*====================
     Event Description
@@ -352,6 +402,11 @@ footer .footer_copyright {
         RegForm
 ======================*/
 
+.required:after {
+    content:" *";
+    color: red;
+  }
+
 .reg_description {
     line-height: 30px;
     font-size: 18px;
@@ -364,8 +419,7 @@ footer .footer_copyright {
     margin-left: -2%;
 }
 
-.reg_success_message {
-    color: green;
+.reg_message {
     width: 100%;
     text-align: center;
     font-weight: bold;
@@ -414,8 +468,13 @@ footer .footer_copyright {
     background: #E27A3F;
     color: #FFF;
     border: 0;
-    padding: 15px 30px;
     font-size: 16px;
     float: right;
     margin-right: -3%;
+    height: 45px;
+    width: 120px;
+}
+
+.submit_btn:disabled {
+    background: #91705d;
 }

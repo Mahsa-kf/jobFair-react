@@ -5,7 +5,7 @@ import EmployerLogos from './EmployerLogos'
 
 const Highlights = () => {
     return(
-        <div className="highlight_wrapper">
+        <div className="highlight_wrapper" id="description">
             <EventDescription/>
             <EmployersDescription/>
             <EmployerLogos/>

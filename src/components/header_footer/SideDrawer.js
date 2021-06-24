@@ -8,8 +8,8 @@ const SideDrawer = (props) => {
     const links = [
         //By clicking the links it goes to the top
         { where: 'featured', value: 'To top' },
-        { where: 'description', value: 'Event Info' },
-        { where: 'employers', value: 'Employers' },
+        { where: 'description', value: 'About us' },
+        { where: 'EventInfo', value: 'Event Info' },
         { where: 'location', value: 'Location' },
         { where: 'regForm', value: 'Register' }
     ]
